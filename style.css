@@ -9,6 +9,12 @@ h1{
     text-align: center;
 }
 
+p{
+    color: antiquewhite;
+    font-weight: bold;
+    text-align: center;
+}
+
 .box{
     background-color: rgb(243, 243, 243);
     margin: auto 5%;
@@ -25,12 +31,10 @@ h1{
 
 .barra.pais1{
     width: calc(100% - 100px);
-
 }
 
 .barra.pais2{
-    width: calc(73% - 100px);
-    
+    width: calc(73% - 100px);    
 }
 
 .barra.pais3{
