@@ -1,3 +1,46 @@
-p{
-    background-color: rgb(255, 255, 0);
+html{
+    background-color: #212121;
+    font-family: 'Anek Tamil', sans-serif;
+}
+
+h1{
+    color: antiquewhite;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box{
+    background-color: rgb(243, 243, 243);
+    margin: auto 5%;
+    padding: 50px;
+}
+
+.barra{
+    background-color: rgb(67, 175, 79);
+    margin: 10px 5%;
+    text-align: right;
+    font-weight: bold;
+    padding: 0 1%;    
+}
+
+.barra.pais1{
+    width: calc(100% - 100px);
+
+}
+
+.barra.pais2{
+    width: calc(73% - 100px);
+    
+}
+
+.barra.pais3{
+    width: calc(22% - 100px);
+}
+
+.barra.pais4{
+    width: calc(18% - 100px);
+}
+
+.barra.pais5{
+    width: calc(13% - 100px);
 }
