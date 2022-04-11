@@ -23,6 +23,16 @@ p{
     text-align: center;
 }
 
+.box{
+    background-color: rgb(243, 243, 243);
+    margin: auto 5%;
+    padding: 50px;
+}
+
+.box.horizontal{
+    margin-bottom: 50px;
+}
+
 .vertical{
     background-color: rgb(243, 243, 243);
     margin: auto 5%;
