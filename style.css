@@ -1,6 +1,14 @@
 html{
-    background-color: #212121;
+    background-color: #1f1f1f;
     font-family: 'Anek Tamil', sans-serif;
+}
+
+img{
+    filter: grayscale(100%);
+}
+
+img:hover{
+    filter: none;
 }
 
 h1{
@@ -21,12 +29,25 @@ p{
     padding: 50px;
 }
 
+.box.horizontal{
+    margin-bottom: 50px;
+}
+
+.box.vertical{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-align: center;
+}
+
 .barra{
-    background-color: rgb(67, 175, 79);
+    background-color: rgb(81, 193, 94);
     margin: 10px 5%;
     text-align: right;
     font-weight: bold;
-    padding: 0 1%;    
+    padding: 0 1%;
+    width: 75px;    
 }
 
 .barra.pais1{
@@ -47,4 +68,29 @@ p{
 
 .barra.pais5{
     width: calc(13% - 100px);
+}
+
+.barra.pais1ver{
+    height: 400px;
+    text-align: center;
+}
+
+.barra.pais2ver{
+    height: calc(400px / 100 * 73);
+    text-align: center;
+}
+
+.barra.pais3ver{
+    height: calc(400px / 100 * 22);
+    text-align: center;
+}
+
+.barra.pais4ver{
+    height: calc(400px / 100 * 18);
+    text-align: center;
+}
+
+.barra.pais5ver{
+    height: calc(400px / 100 * 13);
+    text-align: center;
 }
