@@ -33,7 +33,7 @@ p{
     margin-bottom: 50px;
 }
 
-.box.vertical{
+.vertical{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
